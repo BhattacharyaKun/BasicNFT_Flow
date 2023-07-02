@@ -1,0 +1,24 @@
+{
+	"contracts": {
+		"BasicNFT": "BasicNFT.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "7e8449eeb1383093f770491c11e193f601bd874886e02fe18463960312110fc5"
+		},
+		"test": {
+			"address": "344074cc97a406b1",
+			"key": {
+				"type": "file",
+				"location": "test.pkey"
+			}
+		}
+	}
+}
